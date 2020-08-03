@@ -23,6 +23,11 @@ dos produtos da google, tendo sua utilidade voltada a este ambiente, principalme
  e retorna somente os elementos novos considerando uma das arrays como referência.
  Esse código é útil quando utilizado como macro no momento em que queremos adicionar novos elementos
  a uma sheet à partir de outra, sem repetir os elementos já anteriormente adicionados.
+
+## negativos.gs
+ Esta funçao pode ser util quando combinada a um acionador(trigger) de tempo.
+ A função acessa uma array multidimensional e torna negativo somente os elementos numéricos 
+ maiores que zero (desconsidera os negativos para que não virem positivos).
  
 
 
