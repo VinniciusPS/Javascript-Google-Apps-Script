@@ -18,6 +18,12 @@ dos produtos da google, tendo sua utilidade voltada a este ambiente, principalme
  os graficos mais interativos do que os charts do sheets, além de ser uma boa (e mais segura) alternativa para se visualizar, 
  em tempo real, somente os gráficos atualizados sem precisar expor as planilhas ao usuario.
  
+# diferença_arrays.gs
+ O codigo acessa 2 arrays multidimensionais na planilha, compara os elementos entre elas,
+ e retorna somente os elementos novos, considerando uma delas como referência.
+ Esse código é útil utilizado como macro, quando queremos adicionar novos elementos
+ a uma sheet à partir de outra, sem repetir os elementos já anteriormente adicionados.
+ 
 
 
 
