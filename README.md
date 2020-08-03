@@ -1,6 +1,6 @@
 # Descrição
 
-O repositório reune um compilado com soluções em Google Script e Html 
+O repositório reune um compilado com soluções práticas em Google Script e Html 
 que criei enquanto estagiava no financeiro de uma empresa de prestação de serviços
 de pequeno porte.
 
