@@ -27,7 +27,8 @@ dos produtos da google, tendo sua utilidade voltada a este ambiente, principalme
 ## negativos.gs
  Esta funçao pode ser util quando combinada a um acionador(trigger) de tempo.
  A função acessa uma array multidimensional e torna negativo somente os elementos numéricos 
- maiores que zero (desconsidera os negativos para que não virem positivos).
+ maiores que zero (desconsidera os negativos para que não virem positivos). O script certifica
+ de que uma coluna sempre será negativa, evitando assim erros de cálculo em planilhas de custos, por exemplo.
  
 
 
