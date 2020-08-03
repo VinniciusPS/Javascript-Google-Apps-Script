@@ -8,7 +8,7 @@ de pequeno porte.
 
 A equipe utilizava majoritariamente o googledrive como um "banco de dados".
 Sendo assim, os projetos deste repositório são voltados para uso em editor de Scripts 
-dos produtos da google (sheets etc), tendo sua utilidade voltada a este ambiente.
+dos produtos da google, tendo sua utilidade voltada a este ambiente, principalmente sheets.
 
 # Conteúdo 
 
