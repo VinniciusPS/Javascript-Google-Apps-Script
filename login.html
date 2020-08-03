@@ -1,0 +1,87 @@
+//Criei este html para ser utilizado dentro do editor 
+//de scripts do googlesheets com o intuito de ser uma página 
+//que redireciona o usuário para uma tela com dashboards interativos.
+
+//Os dashboards são feitos com biblioteca google.charts, que tornam
+//a os graficos mais interativos do que os charts do sheets,
+//além de ser uma boa (e mais segura) alternativa para se visualizar 
+//somente os gráficos atualizados em tempo real sem precisar expor 
+//as planilhas ao usuario.
+
+<!DOCTYPE html>
+<html>
+  <head>
+  
+   <title>The Materialize Selects Example</title>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
+      <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet"
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+      <script type = "text/javascript"
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+      </script> 
+      
+      <script>
+         $(document).ready(function() {
+            $('select').material_select();
+         });
+      </script>
+  
+  
+  
+    <base target="_top">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  </head>
+  
+  <body>
+    
+    
+    <div class="container"><span class="teal-text text-lighten-2"><h1>Colocar aqui o nome da empresa</h1></span></div>
+    
+    
+   <div class="container"> 
+   
+    <div class="row">
+      <div class="input-field col s6">
+        <label for="username">Login: </label><input type="text" id="username" class="validate"> 
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="input-field col s6">
+        <label for="password">Senha: </label><input type="password" id="password" class="validate">
+      </div>  
+    </div>
+    
+    <div class="row">
+     <div class="input-field col s6">
+       <select id="conta">
+        <option disabled selected>Escolha a Conta</option>
+        <? for(i=0;i<list.length;i++){ ?>
+        
+        <option><?= list[i] ?></option>
+        
+        <? } ?>
+      </select>
+      <label>Conta: </label>
+     </div>
+    </div>
+    
+    
+    <a href="https://script.google.com/macros/s/AKfycbywtet8RhzR2XbqS9CuEidSkckIRvewBhEiCKYVEL-M/dev?v=form" id="btn" class="btn waves-effect waves-light" type="submit" name="action">Ir
+     <i class="material-icons right">send</i>
+    </a>
+    
+    <!--button id="btn">Ir </button-->
+    
+   </div> 
+    
+   <?!= include("page-js") ?>
+   
+  </body>
+</html>
+
