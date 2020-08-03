@@ -20,7 +20,7 @@ dos produtos da google, tendo sua utilidade voltada a este ambiente, principalme
  
 # diferença_arrays.gs
  O codigo acessa 2 arrays multidimensionais na planilha, compara os elementos entre elas,
- e retorna somente os elementos novos, considerando uma das arrays como referência.
+ e retorna somente os elementos novos considerando uma das arrays como referência.
  Esse código é útil quando utilizado como macro no momento em que queremos adicionar novos elementos
  a uma sheet à partir de outra, sem repetir os elementos já anteriormente adicionados.
  
