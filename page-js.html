@@ -1,0 +1,25 @@
+<script>
+    
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll("select");
+        var instances = M.FormSelect.init(elems);
+      });
+    
+      document.getElementById("btn").addEventListener("click",doStuff)
+    
+      
+      function doStuff() {
+      
+        var userInfo ={uname: document.getElementById("username").value, 
+        password: document.getElementById("password").value, conta: document.getElementById("conta").value};
+       
+        
+        
+        google.script.run.userClicked(userInfo);
+         
+      
+      }
+    
+      
+    
+</script>
