@@ -12,13 +12,13 @@ dos produtos da google, tendo sua utilidade voltada a este ambiente, principalme
 
 # Conteúdo 
 
-# chart-js.html, login.html e page-js.html
+## chart-js.html, login.html e page-js.html
  Utilizado dentro do editor de scripts do googlesheets com o intuito de redirecionar 
  o usuário para uma tela com dashboards interativos. Os dashboards são feitos com biblioteca google.charts, que tornam
  os graficos mais interativos do que os charts do sheets, além de ser uma boa (e mais segura) alternativa para se visualizar, 
  em tempo real, somente os gráficos atualizados sem precisar expor as planilhas ao usuario.
  
-# diferença_arrays.gs
+## diferença_arrays.gs
  O codigo acessa 2 arrays multidimensionais na planilha, compara os elementos entre elas,
  e retorna somente os elementos novos considerando uma das arrays como referência.
  Esse código é útil quando utilizado como macro no momento em que queremos adicionar novos elementos
