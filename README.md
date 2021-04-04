@@ -1,34 +1,33 @@
-# Descrição
+# Description
 
-O repositório reune um compilado com soluções práticas em Google Script e Html 
-que criei enquanto estagiava no financeiro de uma empresa de prestação de serviços
-de pequeno porte.
+The repository brings together a compilation with practical solutions in Google Script and Html
+that I created while interning at the financial services company.
 
-# Utilização
+# Usage
 
-A equipe utilizava majoritariamente o googledrive como um "banco de dados".
-Sendo assim, os projetos deste repositório são voltados para uso em editor de Scripts 
-dos produtos da google, tendo sua utilidade voltada a este ambiente, principalmente sheets.
+The team mostly used googledrive as a "database".
+Therefore, the projects in this repository are intended for use in a Scripting editor
+of google products, having their usefulness focused on this environment, mainly sheets.
 
-# Conteúdo 
+# Contents
 
-## chart-js.html, login.html e page-js.html
- Utilizado dentro do editor de scripts do googlesheets com o intuito de redirecionar 
- o usuário para uma tela com dashboards interativos. Os dashboards são feitos com biblioteca google.charts, que tornam
- os graficos mais interativos do que os charts do sheets, além de ser uma boa (e mais segura) alternativa para se visualizar, 
- em tempo real, somente os gráficos atualizados sem precisar expor as planilhas ao usuario.
+## chart-js.html, login.html and page-js.html
+ Used within the googlesheets script editor in order to redirect
+ the user to a screen with interactive dashboards. The dashboards are made with the google.charts library, which make
+ graphs more interactive than sheets' charts, as well as being a good (and safer) alternative to view,
+ in real time, only the updated graphics without having to expose the spreadsheets to the user.
  
-## diferença_arrays.gs
- O codigo acessa 2 arrays multidimensionais na planilha, compara os elementos entre elas,
- e retorna somente os elementos novos considerando uma das arrays como referência.
- Esse código é útil quando utilizado como macro no momento em que queremos adicionar novos elementos
- a uma sheet à partir de outra, sem repetir os elementos já anteriormente adicionados.
+## difference_arrays.gs
+ The code accesses 2 multidimensional arrays in the spreadsheet, compares the elements between them,
+ and returns only new elements considering one of the arrays as a reference.
+ This code is useful when used as a macro when we want to add new elements
+ one sheet from another, without repeating the elements previously added.
 
-## negativos.gs
- Esta funçao pode ser util quando combinada a um acionador(trigger) de tempo.
- A função acessa uma array multidimensional e torna negativo somente os elementos numéricos 
- maiores que zero (desconsidera os negativos para que não virem positivos). O script certifica
- de que uma coluna sempre será negativa, evitando assim erros de cálculo em planilhas de custos, por exemplo.
+## negative.gs
+ This function can be useful when combined with a time trigger.
+ The function accesses a multidimensional array and makes only the numeric elements negative
+ greater than zero (disregards negatives so they don't turn positive). The script certifies
+ that a column will always be negative, thus avoiding calculation errors in cost spreadsheets, for example.
  
 
 
