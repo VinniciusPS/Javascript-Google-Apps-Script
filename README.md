@@ -5,9 +5,9 @@ that I created while interning at the financial services company.
 
 # Usage
 
-The team mostly used googledrive as a "database".
+The team mostly used googlesheets as a "database".
 Therefore, the projects in this repository are intended for use in a Scripting editor
-of google products, having their usefulness focused on this environment, mainly sheets.
+of google products.
 
 # Contents
 
@@ -25,8 +25,7 @@ of google products, having their usefulness focused on this environment, mainly 
 
 ## negative.gs
  This function can be useful when combined with a time trigger.
- The function accesses a multidimensional array and makes only the numeric elements negative
- greater than zero (disregards negatives so they don't turn positive). The script certifies
+ The function accesses a multidimensional array and turn positive numbers to negative. The script certifies
  that a column will always be negative, thus avoiding calculation errors in cost spreadsheets, for example.
  
 
