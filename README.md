@@ -18,10 +18,9 @@ of google products.
  in real time, only the updated graphics without having to expose the spreadsheets to the user.
  
 ## difference_arrays.gs
- The code accesses 2 multidimensional arrays in the spreadsheet, compares the elements between them,
- and returns only new elements considering one of the arrays as a reference.
- This code is useful when used as a macro when we want to add new elements
- one sheet from another, without repeating the elements previously added.
+ The code compare 2 multidimensional arrays, and returns only the difference between them.
+ This code is useful as a macro when we want to add new elements
+ one sheet from another without repeating the elements previously added.
 
 ## negative.gs
  This function can be useful when combined with a time trigger.
